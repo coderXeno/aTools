@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.dotted{
+    color: orange;
+}
+
+.btn{
+    background-color: #002244 !important;
+    border: none !important;
+    width: 100%;
+}
+
+.sub-title{
+    color: #002244;
+    font-size: 16px;
+}
+
+.container-nav{
+    height: 45px;
+    margin: 0;
+}
+
+.nav-btns{
+    display: flex;
+    justify-content: flex-end;
+    width: 350px;
+}
+
+.btn-trial{
+    width: 170px;
+    font-weight: bold !important;
+}
+
+.btn-login{
+    background-color: rgba(255,103,0,0.8) !important;
+    border: none !important;
+    height: 38px;
+    width: 170px;
+    font-weight: bold;
+}
+
+.heading{
+    font-size: 35px;
+    font-weight: bold !important;
+}
+
+.btn-login-n{
+    margin-bottom: 10px;
+}
+
+.nav-item{
+    margin: 10px;
+}
+
+.me-auto{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.col-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collapse-nav{
+    display: flex;
+}
+
+.img-col{
+    background-color: #002244 !important;
+    height: 90vh !important;
+}
+
+.brand-name{
+    font-size: 23px;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+
+.form{
+    width: 400px;
+    padding: 10px;
+}
+
+.form-title{
+    display: flex;
+}
+
+.dot{
+    color: #880E4F;
+}
+
+.forgot-link{
+    text-decoration: none;
+    color: #002244;
+    margin-left: 45px;
+}
+
+@media only screen and (max-width: 1016px){
+    .forgot-link{
+        margin-left: 39px;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .forgot-link{
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 855px){
+    .forgot-link{
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 830px){
+
+    .md-col{
+        display: none;
+    }
+
+    .col-form{
+        height: 80vh;
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .md-col{
+        display: none;
+    }
+
+    .col-form{
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    .md-col{
+        display: none;
+    }
+
+    .col-form{
+        height: 80vh;
+        transform: scale(0.97);
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .sm-devices{
+        font-size: 14px;
+    }
+}
