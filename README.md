@@ -24,10 +24,17 @@ Gives a success or error message according to the correct login.
 If on login button click, you are getting an alert called: "Error: User Does Not Exist", it means that the login credentials 
 arent registered on the reqres login api and the post request responded with a status of 400.
 
+![image](https://user-images.githubusercontent.com/73885838/153153977-6f7e605d-828e-49f3-a33c-bd771e0d98d9.png)
+
+
 On successful login like with
 email: eve.holt@reqres.in
 password: cityslicka, 
 it will show that login was succesful and display the token
 ![image](https://user-images.githubusercontent.com/73885838/153151867-be418031-a147-44c8-bbfb-0b9fabc4c708.png)
 
-If any of the fields ae kept empty, it will alert the user that which fields have been kept empty.
+If any of the fields are kept empty, it will alert the user that which fields have been kept empty.
+![image](https://user-images.githubusercontent.com/73885838/153153721-04b35f1b-4c3c-44e2-bcde-de36c0021a11.png)
+![image](https://user-images.githubusercontent.com/73885838/153153811-03f667d8-6119-4be6-9954-255e62b9d76b.png)
+
+
